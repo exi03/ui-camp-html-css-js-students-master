@@ -1,0 +1,35 @@
+
+
+#ui-camp-gallery {
+  background-color: rgb(202, 230, 173);
+  text-align: center;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+
+
+
+img {
+  width: 400px;
+  aspect-ratio: 1; 
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+}
+
+
+
+
+
+.fruit-Container{
+  container-type: inline-size;
+}
+
